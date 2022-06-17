@@ -16,7 +16,7 @@ export default function App() {
       <input value={text} onChange={onChangeText} />
       <br />
       <br />
-      <button onClick={onClickOpen}>表示</button>
+      <button onClick={onClickOpen}>スイッチ</button>
       <ChildArea open={open} onClickClose={onClickClose} />
     </div>
   );
